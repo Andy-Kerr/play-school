@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1680 976" xmlns="http://www.w3.org/2000/svg">
+  <rect x="-10.773" y="-8.706" width="1699.586" height="994.294" style="stroke-width: 8; fill: rgb(255, 255, 138);"/>
+  <g transform="matrix(1.871871, 0, 0, 1.874019, -869.563904, -1764.651489)">
+    <ellipse style="stroke: rgb(255, 113, 113); stroke-width: 9.99999; fill: rgb(187, 249, 255);" transform="matrix(0, 1.000001, -1, 0, 1537.708496, 763.245632)" cx="532.121" cy="934.385" rx="81.125" ry="81.125"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="603.325" y1="1374.155" x2="603.325" y2="1216.582" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -739.254121, 806.020037)"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="603.341" y1="1372.373" x2="603.341" y2="1218.4" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 1092.690861, -47.216675)"/>
+    <ellipse style="stroke: rgb(255, 113, 113); fill: rgb(187, 249, 255); stroke-width: 6;" transform="matrix(0, 1.000001, -1.000001, 0, 1073.479355, 1027.619063)" cx="267.747" cy="470.155" rx="40.82" ry="40.82"/>
+  </g>
+  <g transform="matrix(1.871871, 0, 0, 1.874019, -483.446472, -1765.15625)">
+    <rect x="734.116" y="1220.984" width="150" height="150" style="fill: rgb(187, 249, 255); stroke: rgb(255, 113, 113); stroke-width: 10;"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="809.115" y1="1368.823" x2="809.115" y2="1223.146"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="809.115" y1="1367.183" x2="809.115" y2="1224.835" transform="matrix(0, 1, -1, 0, 2105.12403, 486.89404)"/>
+  </g>
+  <g transform="matrix(1.871871, 0, 0, 1.874019, -474.305176, -1799.590332)">
+    <rect x="754.912" y="956.943" width="118.552" height="116.168" style="fill: rgb(187, 249, 255); stroke: rgb(255, 113, 113); stroke-width: 10;" transform="matrix(0.632631, -0.774452, 0.645619, 0.790347, -152.173703, 1141.971372)"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="1006.727" y1="1370.066" x2="1029.703" y2="1257.245" transform="matrix(0.632632, -0.774453, 0.774453, 0.632632, -643.304259, 1271.154476)"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="1029.448" y1="1368.791" x2="1006.996" y2="1258.549" transform="matrix(0.632631, 0.774453, -0.774453, 0.632631, 1391.439377, -305.963816)"/>
+    <rect x="334.737" y="424.32" width="52.567" height="51.51" style="fill: rgb(187, 249, 255); stroke: rgb(255, 113, 113); stroke-width: 6;" transform="matrix(0.632628, -0.774456, 0.645622, 0.790343, 499.256986, 1237.526035)"/>
+  </g>
+  <g transform="matrix(1.871871, 0, 0, 1.874019, -1574.971802, -1792.703125)">
+    <rect x="959.876" y="1070.132" width="127.951" height="127.951" style="fill: rgb(187, 249, 255); stroke: rgb(255, 113, 113); stroke-width: 10;" transform="matrix(0.999999, 0, 0, 1, 165.414978, 207.14502)"/>
+    <ellipse style="stroke: rgb(255, 113, 113); stroke-width: 9.99999; fill: rgb(187, 249, 255);" transform="matrix(0, 1, -1, 0, 1926.125366, 855.818254)" cx="419.633" cy="736.86" rx="63.975" ry="63.975"/>
+    <ellipse style="stroke: rgb(255, 113, 113); fill: rgb(187, 249, 255); stroke-width: 6;" transform="matrix(0, 1.000001, -1.000002, 0, 1631.853913, 1023.401876)" cx="252.049" cy="442.588" rx="38.426" ry="38.425"/>
+    <ellipse style="stroke: rgb(255, 113, 113); fill: rgb(187, 249, 255); stroke-width: 6;" transform="matrix(0, 0.999993, -0.999999, 0, 1341.254951, 1188.893713)" cx="86.557" cy="151.99" rx="13.196" ry="13.196"/>
+    <rect x="964.057" y="1069.113" width="119.525" height="124.403" style="fill: rgb(187, 249, 255);" transform="matrix(1.000001, 0, 0, 1, 165.413021, 207.145996)"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="1188.478" y1="1338.257" x2="1188.478" y2="1216.833" transform="matrix(0, 1, -1, 0, 2466.022998, 89.066886)"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="1150.84" y1="1407.348" x2="1150.84" y2="1276.107" transform="matrix(-1, 0, 0, -1, 2301.679932, 2683.455098)"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="1176.069" y1="1407.529" x2="1176.069" y2="1276.288" transform="matrix(-1, 0, 0, -1, 2352.137946, 2683.816966)"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="1202.461" y1="1407.319" x2="1202.461" y2="1276.078" transform="matrix(-1, 0, 0, -1, 2404.922083, 2683.39693)"/>
+    <line style="stroke-width: 6; stroke: rgb(255, 113, 113);" x1="1227.691" y1="1409.196" x2="1227.691" y2="1277.954" transform="matrix(-1, 0, 0, -1, 2455.38204, 2687.14989)"/>
+  </g>
+</svg>

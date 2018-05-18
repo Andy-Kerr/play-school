@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="250" cy="250" rx="188.452" ry="188.452" transform="matrix(0.867142, -0.498062, 0.498062, 0.867142, -91.300893, 157.730062)" style="fill: rgb(68, 196, 255);"/>
+  <ellipse cx="250" cy="250" rx="139.375" ry="188.452" transform="matrix(0.867142, -0.498062, 0.498062, 0.867142, -91.300857, 157.730059)" style="fill: rgb(255, 249, 130);"/>
+  <ellipse cx="250" cy="250" rx="64.968" ry="188.452" transform="matrix(0.867142, -0.498062, 0.498062, 0.867142, -91.300967, 157.730073)" style="fill: rgb(255, 113, 109);"/>
+</svg>
