@@ -62,7 +62,7 @@ function intro() {
   var offset = 0;
   var zoom = 0;
   music.play()
-  setInterval(update, 20); //50 hertz
+  var inter = setInterval(update, 20); //50 hertz
   function update() {
     time += 0.02
     offset = h / 2 * (Math.tanh((time - 9) * 2) + 1)
@@ -98,6 +98,7 @@ function intro() {
     if (time > 25) {
       localStorage.setItem("PSLo", "windows()")
       location.reload()
+      clearInterval(inter)
     }
   }
 }
