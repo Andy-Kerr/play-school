@@ -1,3 +1,12 @@
+WebFont.load({
+  google: {
+    families: ['Nunito']
+  },
+  active: function() {
+    load();
+  },
+});
+
 function load() {
   canvas = document.getElementById("canvas")
   w = 1680
@@ -44,19 +53,19 @@ function home() {
     }
   });
   ctx.fillStyle = "#333333"
-  ctx.font = '150px Nunito-Bold';
+  ctx.font = '150px Nunito';
   ctx.textAlign = 'left';
   ctx.fillText("Play School", 80, 180);
-  ctx.font = '80px Nunito-Bold';
+  ctx.font = 'bold 80px Nunito';
   ctx.fillText("By Andrew Kerr", 80, 300);
-  ctx.font = '50px Nunito-Italic';
+  ctx.font = 'italic 50px Nunito';
   ctx.fillText("Skip to Windows...", w - 500, h - 50);
 }
 // ----------------------------------------  Intro ------------------------------------------
 function intro() {
   //make with a ton of set timeouts???
   //or with a set interval timer ++, and if time = x, do it, and then you can also have animations
-  //yeah probs setint.
+  //yeah probs setint
   var time = 0;
   var music = document.getElementById("Intro")
   var offset = 0;
@@ -87,7 +96,7 @@ function intro() {
       ctx.drawImage(document.getElementById("PS"), 0, offset2 - h, w, h)
       ctx.textAlign = 'center'
       ctx.fillStyle = "black"
-      ctx.font = "250px Nunito-Bold"
+      ctx.font = "bold 250px Nunito"
       ctx.fillText("Play", w / 2, offset3 - h / 2 - 100)
       ctx.fillText("School", w / 2, offset3 - h / 2 + 250)
       ctx.fillStyle = "white"
@@ -123,7 +132,7 @@ function windows() {
   ctx.font = '140px Nunito';
   ctx.textAlign = 'left';
   ctx.fillText("The Windows", 100, 200);
-  ctx.font = '80px Nunito-Italic';
+  ctx.font = 'italic 80px Nunito';
   ctx.fillText("Where will you go today?", 100, 340);
 }
 // ----------------------------------------  Humpty Dumpty ----------------------------------
@@ -143,7 +152,7 @@ function humpty() {
   ctx.font = '140px Nunito';
   ctx.textAlign = 'left';
   ctx.fillText("Humpty Dumpty", 100, 160);
-  ctx.font = '80px Nunito-Italic';
+  ctx.font = 'italic 80px Nunito';
   ctx.fillText("Fun Ways to Die", 100, 270);
   ctx.fillStyle = "white"
   ctx.font = '500px Nunito';
@@ -352,9 +361,9 @@ function little() {
   ctx.font = '140px Nunito';
   ctx.textAlign = 'left';
   ctx.fillText("Little Ted", 70, 160);
-  ctx.font = '80px Nunito-Italic';
+  ctx.font = 'italic 80px Nunito';
   ctx.fillText("FIS Alpine Ski Racing", 70, 270);
-  ctx.font = '82px Nunito-Bold';
+  ctx.font = 'bold 82px Nunito';
   ctx.fillText("Downhill", 240, 475);
   ctx.fillText("Giant Slalom", 240, 660);
   ctx.fillText("Slalom", 240, 845);
@@ -772,7 +781,7 @@ function big() {
   ctx.font = '140px Nunito';
   ctx.textAlign = 'left';
   ctx.fillText("Big Ted", 100, 160);
-  ctx.font = '80px Nunito-Italic';
+  ctx.font = 'italic 80px Nunito';
   ctx.fillText("Jumps Big.", 100, 270);
 }
 
@@ -934,7 +943,7 @@ function jemima() {
   ctx.font = '140px Nunito';
   ctx.textAlign = 'left';
   ctx.fillText("Jemima's Rocket", 100, 200);
-  ctx.font = '80px Nunito-Italic';
+  ctx.font = 'italic 80px Nunito';
   ctx.fillText("Don't Hit the Asteriods!", 100, 340);
   ctx.font = '400px Nunito';
   ctx.fillText("\u25BA", 200, 850);
@@ -1008,7 +1017,7 @@ function jemimaGame() {
       ctx.fillStyle = "white"
       ctx.textBaseline = 'top';
       ctx.textAlign = 'left'
-      ctx.font = '135px Nunito-Bold';
+      ctx.font = 'bold 135px Nunito';
       ctx.fillText(Math.floor(time), 40, 0);
     } else {
       endScreen();
@@ -1054,7 +1063,7 @@ function jemimaGame() {
     }
     ctx.textAlign = "center";
     ctx.fillStyle = "white"
-    ctx.font = '140px Nunito-Bold';
+    ctx.font = 'bold 140px Nunito';
     ctx.fillText("You're Dead.", w / 2, h * .2);
     ctx.font = '120px Nunito';
     ctx.fillText("Score  " + Math.round(time).toString(), w / 2, h * 0.43);
