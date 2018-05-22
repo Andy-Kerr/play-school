@@ -20,6 +20,7 @@
     <img id="tree" src="Data/tree.svg">
     <img id="skier" src="Data/Skier.svg">
     <img src="Data/Load.svg" id="Load">
+    <img src="Data/Arrow.svg" id="Arrow">
     <img src="Data/Asteriod.svg" id="Asteriod">
     <img src="Data/Rocket.svg" id="Rocket">
     <img src="Data/Rocket2.svg" id="Rocket2">
@@ -222,10 +223,9 @@
       ctx.fillText("Fun Ways to Die", 100, 270);
       ctx.fillStyle = "white"
       ctx.font = '500px Nunito';
-      ctx.fillText("\u25BA", 200, 845);
+      ctx.drawImage(document.getElementById("Arrow"), 0, 0, w, h);
       ctx.drawImage(document.getElementById("Humpty"), 900, 300, 600, 600)
     }
-
     function humptyGame() {
       var engine = Matter.Engine.create();
       var world = engine.world;
@@ -434,7 +434,6 @@
       ctx.fillText("Giant Slalom", 240, 660);
       ctx.fillText("Slalom", 240, 845);
     }
-
     function littleGame(sp) {
       var skiDist = 6;
       var mouseX = null;
@@ -850,7 +849,6 @@
       ctx.font = 'italic 80px Nunito';
       ctx.fillText("Jumps Big.", 100, 270);
     }
-
     function bigGame() {
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
@@ -919,7 +917,7 @@
             ctx.beginPath();
             ctx.rect(sp * i - t + 133, h - 50, -20, -238);
             test();
-          }
+          }a
           if (course.charAt(i) == "x") {
             ctx.drawImage(document.getElementById("LogXL"), sp * i - t, h - 290 - 50, 326, 290);
             ctx.beginPath();
@@ -1012,10 +1010,9 @@
       ctx.font = 'italic 80px Nunito';
       ctx.fillText("Don't Hit the Asteriods!", 100, 340);
       ctx.font = '400px Nunito';
-      ctx.fillText("\u25BA", 200, 850);
+      ctx.drawImage(document.getElementById("Arrow"), 0, 0, w, h);
       ctx.drawImage(document.getElementById("Rocket"), 800, 300, 332 * 2.5, 239 * 2.5);
     }
-
     function jemimaGame() {
 
 
@@ -1050,7 +1047,6 @@
         this.thetaU = (Math.random() - 0.5) * 0.1 //rotational velocity
         this.theta = Math.random() * 6; // Starting angle
       }
-      //Add rotational velocity, and rotational displacement. for drawing !!!!!!!!!!
 
       function drawpoints() {
         speed += 0.5;
